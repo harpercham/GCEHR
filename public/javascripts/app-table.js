@@ -1,5 +1,5 @@
 
-$('table.button').click(function () {
+$('button[class="action"]').click(function () {
     var i = ((this.id).split(/(\d+)/))[1];
     var action = ((this.id).split(/(\d+)/))[0];
 
